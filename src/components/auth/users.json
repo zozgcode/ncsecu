@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tasha Cain",
+      "profileImg": "",
+      "cardName": "Tasha Cain",
+      "username": "Happy",
+      "password": "T&T4Life",
+      "checkingAmount": "2,400,000.00",
+      "checkingAccountNo": "...9998",
+      "createdOn": "5/9/2024 - m/d/y"
+    }
+  ]
+}
