@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-import TestingTwo from "./allUsersTxtData/Testing2";
 import { RiLogoutCircleRLine } from "react-icons/ri";
 import TashaCain from "./allUsersTxtData/TashaCain";
 
