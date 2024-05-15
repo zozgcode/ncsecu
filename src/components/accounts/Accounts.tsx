@@ -39,14 +39,14 @@ export default function Dashboard() {
       )}
       {user && (
         <div className="w-full">
-          <div className="p-5 bg-[#2F5E80]">
+          <div className="p-5 bg-[#12395b]">
             <div className="flex justify-between">
               <div className="flex justify-between w-full">
                 <p className="flex flex-col gap-1 text-white">
                   <div className="flex items-center gap-3">
-                    <span className="text-[16px]">Welcome,</span>
+                    <span className="text-sm">Welcome back,</span>
                   </div>
-                  <span className="text-xl sm:text-2xl font-semibold">
+                  <span className="text-xl font-semibold">
                     {user.name}
                   </span>
                 </p>
@@ -57,19 +57,19 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="border p-5 px-2">
+          <div className="">
             {/* checking acct */}
-            <div className="w-full bg-white rounded-lg h-full p-5">
-              <div className="flex justify-between">
-                <span className="block text-[#474747] sm:text-[24px] text-[20px] font-semibold mb-1">
-                  TOTAL BALANCE
+            <div className="w-full bg-[#12395b] h-full p-5">
+              <div className="flex items-center flex-col justify-center">
+                <span className="block text-[#ffffff] text-[20px] font-semibold mb-1">
+                  My Checking
                 </span>
-                <span className="hidden text-[#6b6b6b] font-semibold sm:text-[24px] text-[19px] mb-1">
+                <span className="hidden text-[#ffffff] font-semibold text-[19px] mb-1">
                   {user.checkingAccountNo}
                 </span>
               </div>
-              <p className="flex justify-between mt-4 sm:text-[26px] text-[20px] items-center font-bold text-gray-800">
-                <span className="font-normal sm:text-[24px] text-[19px]">
+              <p className="flex items-center flex-col justify-center mt-4 text-[20px] font-bold text-[#ffffff]/90">
+                <span className="font-normal text-gray-400 underline text-[19px]">
                   Available Balance
                 </span>
                 <span>${user.checkingAmount}</span>
@@ -96,7 +96,7 @@ export default function Dashboard() {
           </div>
           {/* <TransactionHistory /> */}
           <div className="p-5 px-2">
-            <div className="bg-white flex items-center justify-between rounded p-3 py-2 sm:text-[24px] text-[19px] w-full">
+            <div className="bg-white flex items-center justify-between rounded p-3 py-2 text-[17px] w-full">
               <span>Transactions</span>
               {/* <Link className="text-sky-500 underline" href="/accounts/transactions">
           See all

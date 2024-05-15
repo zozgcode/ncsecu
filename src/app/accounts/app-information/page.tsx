@@ -5,7 +5,7 @@ import { IoIosArrowBack } from "react-icons/io";
 export default function MorePage() {
   return (
     <div className="">
-      <div className="w-full text-white uppercase flex justify-center items-center p-4 bg-[#2F5E80] relative">
+      <div className="w-full text-white uppercase flex justify-center items-center p-4 bg-[#12395b] relative">
         <Link href="/accounts" className="absolute left-[20px]">
           <IoIosArrowBack className="text-2xl" />
         </Link>
@@ -15,15 +15,15 @@ export default function MorePage() {
       </div>
       <div className="">
         <div className="w-full bg-white h-screen">
-          <div className="flex flex-col text-xl font-semibold gap-2 text-[#2f5e80] p-4 px-5 border-b border-gray-400">
+          <div className="flex flex-col text-xl font-semibold gap-2 text-[#12395b] p-4 px-5 border-b border-gray-400">
             <span className="text-base">App Version</span>
             <span>5.1.0</span>
           </div>
-          <div className="flex flex-col text-xl font-semibold gap-2 text-[#2f5e80] p-4 px-5 border-b border-gray-400">
+          <div className="flex flex-col text-xl font-semibold gap-2 text-[#12395b] p-4 px-5 border-b border-gray-400">
             <span className="text-base">App Platform</span>
             <span>Web</span>
           </div>
-          <div className="bg-white px-4 py-2 text-[#2f5e80]">
+          <div className="bg-white px-4 py-2 text-[#12395b]">
             <span className="text-12 text-primary font-bold mb-2 block">
               What&apos;s New
             </span>

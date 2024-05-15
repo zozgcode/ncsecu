@@ -6,7 +6,7 @@ import { IoIosArrowBack } from "react-icons/io";
 export default function MessagePage() {
   return (
     <div className="">
-      <div className="w-full text-white uppercase flex justify-between items-center p-4 bg-[#2F5E80] relative">
+      <div className="w-full text-white uppercase flex justify-between items-center p-4 bg-[#12395b] relative">
         <Link href="/accounts" className="relative left-[20px]">
           <IoIosArrowBack className="text-2xl" />
         </Link>

@@ -16,7 +16,7 @@ export default function TabComponentBillPay() {
         <div className="p-1 rounded text-12 grid grid-cols-3 gap-2 bg-[#c53a41] w-full">
           <span
             className={`text-center rounded ${
-              activeTab === 0 ? "bg-white text-[#2F5E80]" : "text-white"
+              activeTab === 0 ? "bg-white text-[#12395b]" : "text-white"
             } rounded-l`}
             onClick={() => handleTabClick(0)}
           >
@@ -24,7 +24,7 @@ export default function TabComponentBillPay() {
           </span>
           <span
             className={`text-center rounded ${
-              activeTab === 1 ? "bg-white text-[#2F5E80]" : "text-white"
+              activeTab === 1 ? "bg-white text-[#12395b]" : "text-white"
             } `}
             onClick={() => handleTabClick(1)}
           >
@@ -53,7 +53,7 @@ export default function TabComponentBillPay() {
             <p className="text-14 text-center text-gray-700">
               Scheduled payments will display here once added
             </p>
-            <button className="border border-[#2F5E80] text-[#2F5E80] rounded py-1 px-2">
+            <button className="border border-[#12395b] text-[#12395b] rounded py-1 px-2">
               Schedule Payment
             </button>
           </div>
@@ -85,7 +85,7 @@ export default function TabComponentBillPay() {
             <p className="text-14 text-center text-gray-700">
               Payees will display here once added.
             </p>
-            <button className="border border-[#2F5E80] text-[#2F5E80] rounded py-1 px-2">
+            <button className="border border-[#12395b] text-[#12395b] rounded py-1 px-2">
               Add Payee
             </button>
           </div>
